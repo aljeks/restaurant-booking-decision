@@ -127,24 +127,10 @@ After this you can send a POST request to the cloud via jupyter notebook
 
 It's in the bottom of the file with the label: 'Test example with request to AWS cloud service'
 
-Or just run this curl from any terminal:
+Or just run this curl from terminal, for example Cygwin:
 
 #
-curl --location --request POST 'http://ec2-18-222-227-70.us-east-2.compute.amazonaws.com:9696/predict' \
---header 'Content-Type: application/json' \
---data-raw '{"restaurant_name": "via_delhi",
- "country_code": 214,
- "city": "abu_dhabi",
- "longitude": 54.374273233100006,
- "latitude": 24.4910933909,
- "cuisines": "indian,north_indian,chinese",
- "average_cost_for_two": 100,
- "currency": "emirati_diram(aed)",
- "has_table_booking": 0,
- "has_online_delivery": 1,
- "is_delivering_now": 1,
- "price_range": 3,
- "votes": 1148}'
+curl --location --request POST 'http://ec2-18-222-227-70.us-east-2.compute.amazonaws.com:9696/predict' --header 'Content-Type: application/json' --data-raw '{"restaurant_name": "via_delhi", "country_code": 214, "city": "abu_dhabi", "longitude": 54.374273233100006, "latitude": 24.4910933909, "cuisines": "indian,north_indian,chinese", "average_cost_for_two": 100, "currency": "emirati_diram(aed)", "has_table_booking": 0, "has_online_delivery": 1, "is_delivering_now": 1, "price_range": 3, "votes": 1148}'
 
 
 
