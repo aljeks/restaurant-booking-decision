@@ -3,9 +3,15 @@ ML project based on Zomato API data to select restaurant to visit
 
 ### Problem description
 
-Zomato API Analysis is one of the most useful analysis for foodies who want to taste the best cuisines of every part of the world which lies in their budget. This analysis is also for those who want to find the value for money restaurants in various parts of the country for the cuisines. Additionally, this analysis caters the needs of people who are striving to get the best cuisine of the country and which locality of that country serves that cuisines with maximum number of restaurants.
+Zomato API Analysis is one of the most useful analysis for foodies who want to taste the best cuisines of every part of the world which lies in their budget. 
+This analysis is also for those who want to find the value for money restaurants in various parts of the country for the cuisines. 
+Additionally, this analysis caters the needs of people who are striving to get the best cuisine of the country and which locality of that country serves that cuisines with maximum number of restaurants.
 
-Main goal of this project is to get prediction (Yes or No) for the question: Do I have to book a table in the restaurant with these features?
+Main goal of this project is to get prediction of probability (0,1) for the question: Do I have to book a table in the restaurant with these features?
+After asking the model with your set of features you will get the result.
+For example: yes, you have to visit this restaurant with proba = 0.83
+
+I hope you will have the best expirience with the recommended restaurant and enjoy the best cuisine in the city.
 
 ### What data do I use
 
